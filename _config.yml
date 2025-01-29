@@ -1,0 +1,56 @@
+title: "Develop Bharat | Articles"
+email: care@developbharat.com
+timezone: UTC
+baseurl: "/articles"
+permalink: "/:title/"
+logo: "assets/images/logo.png"
+favicon: "assets/images/favicon.ico"
+author: Kshama
+paginate: 30
+disqus: "demowebsite"
+locale: en_us
+lang: en_us
+feed_items: 10
+feed_update_period: daily
+feed_update_frequency: 1
+markdown: kramdown
+kramdown:
+  syntax_highlighter_opts:
+    disable: true
+sass:
+  sass_dir: _sass
+  style: :compressed
+ganalytics: UA-113961478-1
+
+# Authors
+authors:
+  kshama:
+    name: Kshama
+    display_name: Kshama
+    avatar: "assets/images/kshama.png"
+    email: care@developbharat.com
+    web: https://www.developbharat.com/
+    twitter: https://twitter.com/BharatDevelop
+    description: "A excellent writer in domain of finance, rewarded with multiple international awards with 10+ years of domain expertise."
+  jayant:
+    name: Jayant
+    display_name: Jayant Malik
+    avatar: "assets/images/jayant.png"
+    email: care@developbharat.com
+    web: https://www.developbharat.com/
+    twitter: https://twitter.com/BharatDevelop
+    description: "A software engineer with 4 years of industry expertise. Specilises in Backend, Cyber Security, DevOps and few more spicy names like AI/ML"
+
+# Social
+social:
+  instagram: https://www.instagram.com/developbharat
+  linkedin: https://www.linkedin.com/company/developbharat
+  twitter: https://twitter.com/BharatDevelop
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
